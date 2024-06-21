@@ -5,7 +5,7 @@ public class Main {
 
         FootballPlayer player = new FootballPlayer("Іван", "Іваненко", 25, "Нападник");
 
-        FootballPlayer player2 = new FootballPlayer("Ліонель", "Мессі", 36, "Нападник");
+        FootballPlayer player2 = new FootballPlayer("Ліонель", "Мессі", 37, "Нападник");
 
         System.out.println(player.toString());
 
