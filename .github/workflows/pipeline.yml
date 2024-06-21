@@ -17,8 +17,10 @@ jobs:
       with:
         java-version: '11'
         distribution: 'adopt'
+
     - name: Access
       run: chmod +x gradlew
+
     - name: Validate Gradle wrapper
       run: ./gradlew wrapper --gradle-version 6.8.3
 
